@@ -1,12 +1,15 @@
 🎰 Lottery Game
 Welcome to the Lottery Game – a fun and interactive web app built with React that lets users test their luck and enjoy a simple gaming experience.
+
 🚀 Live Demo
 Check it out here: https://itsrohan2908.github.io/lottery-game/
+
 🛠️ Tech Stack
 - React for building the UI
 - JavaScript for game logic
 - CSS for styling
 - GitHub Pages for deployment
+
 📦 Features
 - Random number generation
 - Win/loss detection
