@@ -1,0 +1,39 @@
+.ticket-num {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--success);
+  margin: 0 4px;
+  padding: 2px 12px;
+  background: linear-gradient(180deg, #0e131a, #0b0f14);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35), inset 0 1px rgba(255,255,255,0.05);
+  transition: transform 120ms ease, background 200ms ease;
+}
+
+.ticket-num:hover {
+  transform: translateY(-1px);
+}
+
+.ticket-num {
+  position: relative;
+  overflow: hidden;
+}
+
+.ticket-num::after {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -40%;
+  width: 140%;
+  height: 220%;
+  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.08) 15%, transparent 30%);
+  transform: rotate(20deg);
+  animation: shimmer 3.2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-60%) rotate(20deg); }
+  60% { transform: translateX(30%) rotate(20deg); }
+  100% { transform: translateX(120%) rotate(20deg); }
+}
