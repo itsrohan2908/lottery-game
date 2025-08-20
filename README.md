@@ -15,7 +15,7 @@ Check it out here: https://itsrohan2908.github.io/lottery-game/
 📸 Preview
 (You can add a screenshot of your app here for visual appeal)
 📁 How to Run Locally
-git clone https://github.com/itsrohan2908/lottery-game.git
-cd lottery-game
-npm install
-npm start
+- git clone https://github.com/itsrohan2908/lottery-game.git
+- cd lottery-game
+- npm install
+- npm start
