@@ -1,7 +1,6 @@
 import './App.css'
 import { sum } from './helper';
 import Lottery from './Lottery'
-import TicketNum from './TicketNum';
 
 function App() {
 
