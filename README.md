@@ -12,6 +12,7 @@ Check it out here: https://itsrohan2908.github.io/lottery-game/
 - Win/loss detection
 - Clean and responsive design
 - Simple, intuitive gameplay
+
 📸 Preview
 (You can add a screenshot of your app here for visual appeal)
 📁 How to Run Locally
