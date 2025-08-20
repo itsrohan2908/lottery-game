@@ -276,7 +276,7 @@
   text-align: center;
   box-shadow: 0 6px 18px rgba(0,0,0,0.35);
   transition: transform 120ms ease, border-color 160ms ease, box-shadow 200ms ease;
-  -moz-appearance: textfield;
+  /* -moz-appearance: textfield; */
 }
 .param-input::-webkit-outer-spin-button,
 .param-input::-webkit-inner-spin-button {
